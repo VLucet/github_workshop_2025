@@ -8,4 +8,5 @@ my_model_summary <-summary(my_model)
 
 #access r2
 my_model_summary$R.squared
-  
+
+# add new comment
