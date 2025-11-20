@@ -4,4 +4,8 @@ library(MASS)
 my_model <- summary(lm(mpg~cyl, mtcars))
 
 # print summary
-my_model_summary <-summary(mymodel)
+my_model_summary <-summary(my_model)
+
+#access r2
+my_model_summary
+  
